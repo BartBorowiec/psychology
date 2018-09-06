@@ -28,10 +28,11 @@ footer {
 #myNavbar a{
   font-size: 1.2rem;
 	color: #00194d;
-  transition: 0.5s
+  transition: 0.5s;
+  border-bottom:1px solid #d6f4f4;
 }
 #myNavbar a:hover {
-	color: #0e496d
+	color: #126090;
 }
 #myNavbar a.navbar-brand{
 	font-size: 2rem;
@@ -40,8 +41,12 @@ footer {
 }
 #myNavbar.scrolled a{
   line-height: 1;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
+#myNavbar.scrolled .active {
+  border-bottom: 1px solid #00194d;
+}
+
 #myNavbar.scrolled a.navbar-brand {
   line-height: 1;
   font-size: 1.2rem;
@@ -121,6 +126,11 @@ p.lead {
 .btn-dark {
 	background-color: #69055b;
 	border-color: #69055b;
+}
+.btn-dark:hover {
+  background-color: #56044b;
+  border-color: #56044b;
+  box-shadow: 0px 0px 18px 5px grey;
 }
 
 
